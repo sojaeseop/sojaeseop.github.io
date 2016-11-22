@@ -15,14 +15,23 @@
 # in the templates via {{ site.myvariable }}.
 title: 소재섭 블로그
 email: sojaeseop@gmail.com
-#description: ""
+description: "dev, make"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sojaeseop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sojaeseop
 
 # Build settings
 permalink: /:title
-markdown: kramdown
+#markdown: kramdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
 theme: minima
 gems:
   - jekyll-feed
