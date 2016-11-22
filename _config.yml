@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: 소재섭 블로그
 email: sojaeseop@gmail.com
-description: "매일 조금씩 앞으로 나아가야 합니다. 이렇게 하다보면 조만간 당신이 이길 것입니다. 어제 하루동안 제가 한 일이라고는 FogBUGZ 에서 컬러 정책을 조금 개선한 사항뿐입니다. 이 정도면 충분합니다. 조금씩 발전해 나가는 겁니다. 날이 갈수록 우리 소프트웨어는 점점 더 좋아지며, 더 많은 고객을 확보할 수 있다는 점을 노릴 뿐입니다. Oracle 정도로 큰 회사가 되고 난 다음에 거대한 전략을 생각해도 늦지 않습니다. 매일 아침 출근해서 에디터를 여는 것만으로도 충분합니다."
+description: "매일 조금씩 앞으로 나아가야 합니다. 이렇게 하다보면 조만간 당신이 이길 것입니다. 어제 하루동안 제가 한 일이라고는 FogBUGZ 에서 컬러 정책을 조금 개선한 사항뿐입니다. 이 정도면 충분합니다. 조금씩 발전해 나가는 겁니다. 날이 갈수록 우리 소프트웨어는 점점 더 좋아지며, 더 많은 고객을 확보할 수 있다는 점을 노릴 뿐입니다. Oracle 정도로 큰 회사가 되고 난 다음에 거대한 전략을 생각해도 늦지 않습니다. 매일 아침 출근해서 에디터를 여는 것만으로도 충분합니다.
+- 조엘 온 소프트웨어 -"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sojaeseop.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "" #jekyllrb
