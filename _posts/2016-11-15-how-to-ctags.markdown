@@ -7,6 +7,7 @@ tags: ctags,vi,linux
 excerpt: "ctags 간단 사용법: ctags -R"
 ---
 ## tag 파일 생성하기
+
 ### 현재 디렉토리에서 tag 파일 생성하기
 
 {% highlight bash %}
