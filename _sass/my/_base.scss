@@ -1,0 +1,13 @@
+
+.tablestyle {
+	border-collapse: collapse;
+	margin: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+	> table, td, th {
+		border: 1px solid black;
+		padding: 5px;
+	}
+}
+
