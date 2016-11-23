@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{% assign post = page %}
+
 <div class="post">
 
   <header class="post-header">
@@ -10,5 +13,30 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+    {% if post.categories.size > 0 %}
+      {% capture categories_content %}CATEGORY: {% endcapture %}
+      {% for category in post.categories %}
+        {% capture categories_content_temp %}{{ categories_content }}{{ category }}{% if forloop.last == false %}, {% endif %}{% endcapture %}
+        {% assign category_content = categories_content_temp %}
+      {% endfor %}
+    {% else %}
+      {% assign categories_content = '' %}
+    {% endif %}
+
+    {% if post.tags.size > 0 %}
+      {% capture tags_content %}TAG: {% endcapture %}
+      {% for tag in post.tags %}
+        {% capture tags_content_temp %}{{ tags_content }}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endcapture %}
+        {% assign tags_content = tags_content_temp %}
+      {% endfor %}
+    {% else %}
+      {% assign tags_content = '' %}
+    {% endif %}
+
+  	<div class="post-meta">
+      {{ category_content }}
+      {{ tags_content }}
+    </div>
   </article>
 </div>

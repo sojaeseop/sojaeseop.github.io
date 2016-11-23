@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 소재섭 블로그
+author: 소재섭
 email: sojaeseop@gmail.com
 description: "dev, make"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,8 +33,13 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
+paginate: 5
+paginate_path: '/page/:num/'
+timezone: Asia/Seoul
+
 theme: minima
 gems:
+  - jekyll-paginate
   - jekyll-feed
 exclude:
   - Gemfile
