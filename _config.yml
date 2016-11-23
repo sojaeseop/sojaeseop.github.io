@@ -40,11 +40,13 @@ timezone: Asia/Seoul
 theme: minima
 
 # for google search console
-google_verify: nDF82xJPqEPBkLzMhoc3sQGGfZNpqWl7E-4eyEFsap0
+#google_verify: nDF82xJPqEPBkLzMhoc3sQGGfZNpqWl7E-4eyEFsap0
+google_site_verification: nDF82xJPqEPBkLzMhoc3sQGGfZNpqWl7E-4eyEFsap0
 
 gems:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
