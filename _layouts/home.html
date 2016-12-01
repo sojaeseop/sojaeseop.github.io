@@ -21,7 +21,7 @@ layout: default
     {% endfor %}
   </ul>
 
-  {% if site.posts > 5 %}
+  {% if site.posts | size > 5 %}
   <p style="text-align:right;"><a href="/page/">more</a></p>
   {% endif %}
 
