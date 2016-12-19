@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+개발과 취미 생활에서 겪는 삽질 기록을 위한 블로그입니다.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+> 매일 조금씩 앞으로 나아가야 합니다. 이렇게 하다보면 조만간 당신이 이길 것입니다. 어제 하루동안 제가 한 일이라고는 FogBUGZ 에서 컬러 정책을 조금 개선한 사항뿐입니다. 이 정도면 충분합니다. 조금씩 발전해 나가는 겁니다. 날이 갈수록 우리 소프트웨어는 점점 더 좋아지며, 더 많은 고객을 확보할 수 있다는 점을 노릴 뿐입니다. Oracle 정도로 큰 회사가 되고 난 다음에 거대한 전략을 생각해도 늦지 않습니다. 매일 아침 출근해서 에디터를 여는 것만으로도 충분합니다.
+>
+> 조엘 온 소프트웨어
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
