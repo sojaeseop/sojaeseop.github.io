@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ffmpeg: 디인터레이스 필터 사용하기"
-date:   2016-11-19 15:21:00 +0900
+date:   2016-12-19 15:21:00 +0900
 categories: linux
 tags: [linux,ffmpeg,deinterlace]
 excerpt: "ffmpeg에서 필터 사용하는 방법"
